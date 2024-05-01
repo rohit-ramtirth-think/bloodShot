@@ -1,0 +1,300 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bloodshot"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_auth] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+12-->[:react-native-firebase_auth] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_auth] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+13-->[:react-native-firebase_auth] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+14    <!--
+15    This manifest file is used only by Gradle to configure debug-only capabilities
+16    for React Native Apps.
+17    -->
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->[com.facebook.react:react-android:0.73.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/edc59975bcc4120ec18862c1f0fcc26c/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:16:5-78
+18-->[com.facebook.react:react-android:0.73.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/edc59975bcc4120ec18862c1f0fcc26c/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:16:22-75
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.201.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/a7cfb746422dcb30166b23d4ac7e3177/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+19-->[com.facebook.flipper:flipper:0.201.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/a7cfb746422dcb30166b23d4ac7e3177/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.bloodshot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.bloodshot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:5:5-24:19
+28        android:name="com.bloodshot.MainApplication"
+28-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:6:7-38
+29        android:allowBackup="false"
+29-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:10:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3563d653a64dff05d3ec8689a3cb7f29/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:8:7-41
+34        android:label="@string/app_name"
+34-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:7:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:9:7-52
+36        android:theme="@style/AppTheme"
+36-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:11:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/debug/AndroidManifest.xml:6:9-44
+38        <activity
+38-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:12:7-23:18
+39            android:name="com.bloodshot.MainActivity"
+39-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:13:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:15:9-118
+41            android:exported="true"
+41-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:18:9-32
+42            android:label="@string/app_name"
+42-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:14:9-41
+43            android:launchMode="singleTask"
+43-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:16:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:17:9-51
+45            <intent-filter>
+45-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:19:9-22:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:20:13-65
+46-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:20:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:21:13-73
+48-->/Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/android/app/src/main/AndroidManifest.xml:21:23-70
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+53            android:name="app_data_collection_default_enabled"
+53-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+54            android:value="true" />
+54-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+55
+56        <service
+56-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+58            android:directBootAware="true"
+58-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+59            android:exported="false" >
+59-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+60            <meta-data
+60-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+61                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+61-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3e333b4ac9d3844ef7abfab5ad100b3c/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+67                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+67-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3e333b4ac9d3844ef7abfab5ad100b3c/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/3e333b4ac9d3844ef7abfab5ad100b3c/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+70                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+70-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+72        </service>
+73
+74        <provider
+74-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+75            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+75-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+76            android:authorities="com.bloodshot.reactnativefirebaseappinitprovider"
+76-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+77            android:exported="false"
+77-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+78            android:initOrder="99" />
+78-->[:react-native-firebase_app] /Users/ttpl-apl-013/Desktop/AjinkyaLearning/BloodShot/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+79
+80        <activity
+80-->[com.facebook.react:react-android:0.73.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/edc59975bcc4120ec18862c1f0fcc26c/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:19:9-21:40
+81            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+81-->[com.facebook.react:react-android:0.73.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/edc59975bcc4120ec18862c1f0fcc26c/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:20:13-77
+82            android:exported="false" />
+82-->[com.facebook.react:react-android:0.73.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/edc59975bcc4120ec18862c1f0fcc26c/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:21:13-37
+83        <activity
+83-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+84            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+84-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+85            android:excludeFromRecents="true"
+85-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+86            android:exported="true"
+86-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+87            android:launchMode="singleTask"
+87-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+88-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+89            <intent-filter>
+89-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+90-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+92-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+93-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+94
+95                <data
+95-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+96                    android:host="firebase.auth"
+96-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+97                    android:path="/"
+97-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+98                    android:scheme="genericidp" />
+98-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+102            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+102-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+108-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+110-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+111-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+112
+113                <data
+113-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+114                    android:host="firebase.auth"
+114-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+115                    android:path="/"
+115-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+116                    android:scheme="recaptcha" />
+116-->[com.google.firebase:firebase-auth:22.3.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/03170244ea472118e8086da7350c2948/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+120            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+120-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+121            android:excludeFromRecents="true"
+121-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+124        <!--
+125            Service handling Google Sign-In user revocation. For apps that do not integrate with
+126            Google Sign-In, this service will never be started.
+127        -->
+128        <service
+128-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+129            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+129-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+130            android:exported="true"
+130-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+131            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+131-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+132            android:visibleToInstantApps="true" />
+132-->[com.google.android.gms:play-services-auth:20.7.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/bff1f83d24caa00c725abd0280b7dd44/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+133
+134        <provider
+134-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+135            android:name="com.google.firebase.provider.FirebaseInitProvider"
+135-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+136            android:authorities="com.bloodshot.firebaseinitprovider"
+136-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+138            android:exported="false"
+138-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+139            android:initOrder="100" />
+139-->[com.google.firebase:firebase-common:20.4.2] /Users/ttpl-apl-013/.gradle/caches/transforms-3/94e950ed28c2a883520a990c7fa6057c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+140
+141        <activity
+141-->[com.google.android.gms:play-services-base:18.0.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/99edbade58159270388b0f20ca6abbe5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+142-->[com.google.android.gms:play-services-base:18.0.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/99edbade58159270388b0f20ca6abbe5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-base:18.0.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/99edbade58159270388b0f20ca6abbe5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-base:18.0.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/99edbade58159270388b0f20ca6abbe5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+145
+146        <meta-data
+146-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/c9fec62d3a36cd56ea0222a59b837850/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+147            android:name="com.google.android.gms.version"
+147-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/c9fec62d3a36cd56ea0222a59b837850/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+148            android:value="@integer/google_play_services_version" />
+148-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/c9fec62d3a36cd56ea0222a59b837850/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+149
+150        <provider
+150-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+151            android:name="androidx.startup.InitializationProvider"
+151-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+152            android:authorities="com.bloodshot.androidx-startup"
+152-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+153            android:exported="false" >
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+154            <meta-data
+154-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+155-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+156                android:value="androidx.startup" />
+156-->[androidx.emoji2:emoji2:1.2.0] /Users/ttpl-apl-013/.gradle/caches/transforms-3/4586a875f92ace8aa509dbe786d09110/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+157            <meta-data
+157-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/2b3ae8f648167cc4f9a0ef8868152518/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+158                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/2b3ae8f648167cc4f9a0ef8868152518/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+159                android:value="androidx.startup" />
+159-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ttpl-apl-013/.gradle/caches/transforms-3/2b3ae8f648167cc4f9a0ef8868152518/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+160        </provider>
+161
+162        <meta-data
+162-->[com.facebook.soloader:soloader:0.10.5] /Users/ttpl-apl-013/.gradle/caches/transforms-3/9eacd184cb3a87a0ea8b90ad786da1a0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+163            android:name="com.facebook.soloader.enabled"
+163-->[com.facebook.soloader:soloader:0.10.5] /Users/ttpl-apl-013/.gradle/caches/transforms-3/9eacd184cb3a87a0ea8b90ad786da1a0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+164            android:value="false" />
+164-->[com.facebook.soloader:soloader:0.10.5] /Users/ttpl-apl-013/.gradle/caches/transforms-3/9eacd184cb3a87a0ea8b90ad786da1a0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+165    </application>
+166
+167</manifest>

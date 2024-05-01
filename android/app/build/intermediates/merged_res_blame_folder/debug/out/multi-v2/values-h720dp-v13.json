@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bloodshot.app-mergeDebugResources-40:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ttpl-apl-013/.gradle/caches/transforms-3/aeb96e8c4fb2d91db73cc27259910ead/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
